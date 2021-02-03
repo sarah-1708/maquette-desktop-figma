@@ -1,0 +1,333 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*BANNER*/
+nav{
+    display: flex;
+    height: 100px;
+    margin:0 50px;
+}
+
+.iconify{
+    width:70px;
+    height:70px;
+    font-size: 60px;
+    color: #221FD1;
+    transform: rotate(360deg);
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    margin-top:-7px;
+}
+
+p{
+    padding: 23px 30px;
+    margin-left: -30px;
+    font-size: 25px;
+}
+
+ul{
+    width: 910px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+#start{
+    width: 170px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 17px;
+    border-radius: 10px;
+    border-color: orange;
+    background: none;
+    margin-left: 19px;
+    font-size: 20px;
+}
+
+h3{
+    text-align:center;
+    font-family:'Raleway';
+    font-size:20px;
+    margin-top:70px;
+}
+
+h1, h2{
+    text-align:center;
+    margin-top:-8px;
+    font-family:'Lato';
+    font-size:50px;
+}
+
+.abonnement{
+    display: flex;
+    justify-content: center;
+}
+
+.abonnés{
+    text-align:center;
+    font-size:20px;
+    margin-top: -60px;
+}
+
+#main{
+    margin-top:20px;
+}
+
+.main{
+    padding:20px;
+}
+
+input{
+    font-size:20px;
+    width: 430px;
+    height: 54px;
+    margin-top:50px;
+}
+
+.sabonner{
+    background-color:orange;
+    border-color:orange;
+    color:white;
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+    margin: 49px 20px;
+}
+
+#round{
+    width: 500px;
+    height: 500px;
+    background-color: #221FD1;
+    border-radius: 272px;
+    position: absolute;
+    margin-left: -310px;
+    margin-top: -245px;
+}
+
+#circle{
+    width: 246px;
+    height: 500px;
+    position: absolute;
+    border-radius: 300px;
+    border: 30px solid #221FD1;
+    /*margin-left: 965px;*/
+    margin-top: -792px;
+    border-bottom-right-radius: 3px;
+    border-right:0;
+    border-top-right-radius:0;
+    margin-left:975px;
+    transform:rotate(-2deg);
+    
+    
+}
+
+/*NOS SERVICES*/
+
+.section{
+    margin-top:200px;
+}
+
+#card{
+    display:flex;
+    flex-wrap:wrap-reverse;
+    align-items: center;
+    margin-top:80px;
+}
+
+.container{
+    border-radius:2px;
+    width: 400px;
+    height: 200px;
+    margin: 15px 10px;
+    box-shadow:0px 1px 3px;
+}
+
+#card h3{
+    margin-top:28px;
+    font-size:24px;
+}
+
+.title{
+    display:flex;
+}
+
+p.card{
+    width:300px;
+    margin:10px;
+    margin-top:-20px;
+    font-size:18px;
+    font-family:'Raleway';
+}
+
+#card svg.iconify{
+    width: 50px;
+    height: 50px;
+    padding: 21px;
+    margin-top: -7px;
+    color:#221FD1;
+}
+
+/*Tarifs*/
+#position{
+    margin-top: 496px;
+}
+ .section hr{
+     margin:auto;
+     width:350px;
+     margin-top:30px;
+ }
+
+#container1.container, #container2.container, #container3.container{
+    border-radius:10px;
+    width: 376px;
+    height: 185px;
+}
+
+#container1.container p, #container2.container p, #container3.container p{
+    margin: 5px;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+#container1.container{
+    margin-left: 197px;
+    margin-top: -34px;
+    position: absolute;
+    background-color:white;
+    border-color: white;
+    box-shadow: 1px 0px 1px;
+}
+
+#container2.container{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 147px;
+    background-color:white;
+    border-color: white;
+    box-shadow: 1px 0px 1px;
+}
+
+#container3.container{
+    position: absolute;
+    margin-left: 843px;
+    margin-top: 302px;
+    background-color:white;
+    border-color: white;
+    box-shadow: 1px 0px 1px;
+}
+
+span{
+    margin:30px;
+    font-weight:bold;
+}
+
+img{
+    width: 84px;
+    height: 84px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -39px;
+    margin-left: 34px;
+}
+
+.blue{
+    width:600px;
+    height:600px;
+    background-color:#221FD1;
+    border-radius:360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -189px;
+}
+
+.red{
+    width:50px;
+    height:50px;
+    background-color:#BE2222;
+    border-radius:25px;
+    display: block;
+    margin-left: auto;
+    margin-right: 357px;
+    margin-top: -740px;
+}
+
+.cyan{
+    width:100px;
+    height:100px;
+    background-color:#39C4F0;
+    border-radius:50px;
+    display: block;
+    margin-right: 56px;
+    margin-top: 328px;
+    position: absolute;
+    margin-left: 1132px;
+}
+
+/*FOOTER*/
+
+#footer{
+    width:auto;
+    height:570px;
+    background-color:darkblue;
+    margin-top: 980px;
+}
+
+#footer h2{
+    color: white;
+    padding: 20px;
+    font-family:'Raleway';
+}
+
+#footer h3{
+    color: grey;
+    width: 525px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Lato';
+    margin-top:-10px;
+}
+
+#footer hr{
+    width: 1200px;
+    margin: auto;
+    margin-top:80px;
+}
+
+#footer ul{
+    justify-content: flex-end;
+    width: 1210px;
+    margin-top: -143px;
+    height: 10px;
+    margin-left:25px;
+}
+
+#footer .sabonner{
+    background-color:#3D3BB2;
+    border-color:#3D3BB2;
+    font-family:'Lato';
+}
+
+#footer svg.iconify{
+    margin-top:20px;
+    color:white;
+}
+
+
+#footer .abonnement{
+    margin-top:70px;
+}
+
